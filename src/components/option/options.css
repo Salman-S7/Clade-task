@@ -18,7 +18,10 @@
     color: var(--subHeading-color);
     height: 100%;
 }
-.options ul li:first-child{
+.options ul li{
+    cursor: pointer;
+}
+.option-active{
     font-weight: 600;
     color: var(--primary-color);
     position: relative;
@@ -27,7 +30,7 @@
     align-items: center;
     z-index: 0;
 }
-.options ul li:first-child::after{
+.option-active::after{
     content: "";
     position: absolute;
     height: 2px;

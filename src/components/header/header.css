@@ -56,7 +56,7 @@ header{
     border-radius: 40px;
     cursor: pointer;
 }
-.header-center ul li:first-child{
+.nav-active{
     background-color: var(--primary-color);
     color: #FFF;
 }
@@ -100,6 +100,9 @@ header{
     top: 4px;
     left: 30px;
     border-radius: 100%;
+}
+.nav-active.msgs-icon::after{
+    background-color: #FFF;
 }
  .msgs-icon{
     position: relative;
