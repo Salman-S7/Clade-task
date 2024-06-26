@@ -9,7 +9,8 @@ header{
     justify-content: space-between;
     padding: 0 2%;
     padding: 6px 16px;
-    backdrop-filter: blur(8px);
+    background-color: #FFF;
+    z-index: 9999;
     /* border-bottom: 1px solid var(--border-color); */
 }
 .header-left{

@@ -25,6 +25,7 @@
     height: 100%;
     display: flex;
     align-items: center;
+    z-index: 0;
 }
 .options ul li:first-child::after{
     content: "";
@@ -34,5 +35,6 @@
     background-color: var(--primary-color);
     bottom: 0;
     left: 20%;
+    z-index: 0;
     /* border-bottom: 2px solid var(--primary-color); */
 }
