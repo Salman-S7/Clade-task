@@ -77,3 +77,30 @@ header{
     align-items: center;
     cursor: pointer;
 }
+.bell-icon{
+    position: relative;
+}
+
+.bell-icon::after{
+    content: "";
+    background-color: var(--primary-color);
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    top: 0;
+    right: 1px;
+    border-radius: 100%;
+}
+.msgs-icon::after {
+    content: "";
+    background-color: var(--primary-color);
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    top: 4px;
+    left: 30px;
+    border-radius: 100%;
+}
+ .msgs-icon{
+    position: relative;
+ }

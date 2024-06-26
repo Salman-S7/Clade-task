@@ -20,7 +20,7 @@ const Header = () => {
                       <img src={JobsIcon} alt="" />
                       <span>Jobs</span>
                   </li>
-                  <li>
+                  <li className='msgs-icon'>
                       <img src={MessegeIcon} alt="" />
                       Messeges
                   </li>
@@ -32,7 +32,7 @@ const Header = () => {
           </nav>
           <div className="header-right">
               <ul>
-                  <li>
+                  <li className='bell-icon'>
                       <img src={BellIcon} alt="" />
                   </li>
                   <li >

@@ -1,3 +1,6 @@
+ul li{
+    color: #3D3D3D;
+}
 .job-details{
     padding-right: 1%;
     width: 100%;
@@ -13,7 +16,8 @@
     /* justify-content: space-between; */
     height: 100%;
     width: 80%;
-    border-right:1px solid var(--border-color) ;
+    box-shadow: 2px 0 2px 0px var(--border-color);
+    border-right: 1px solid transparent ;
 }
 .job-title-wrapper{
     width: 100%;
@@ -31,16 +35,43 @@
     justify-content: start;
     gap: 2%;
     width: -webkit-fill-available;
+    color: #3D3D3D;
+}
+.posted-time{
+    color: #6E6D6D;
+}
+/* .posted-time .dot{
+    display: inline-block;
+    padding-right: 8px;
+    background: #6E6D6D;
+} */
+.job-status{
+    border: 1px solid #ABEFC6;
+        border-radius: 12px;
+        padding: 2px 8px;
+        color: #067647;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        font-size: 14px;
+}
+.dot{
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    background: #17B26A;
+    border-radius: 100%;
 }
 .job-info{
     display: flex;
     width: 100%;
 }
 .job-info span{
-        display: flex;
-            align-items: center;
-            width: 20%;
-            gap: 10%;
+    display: flex;
+    align-items: center;
+    width: 20%;
+    gap: 8%;
+    color: #5D5D5D;
 }
 
 .job-skills{
@@ -51,6 +82,9 @@
     width: 100%;
     padding: 4% 0 4% 7.2%;
     border-bottom: 1px solid var(--border-color);
+}
+.text-bold{
+    font-weight: 600;
 }
 .job-skills ul{
     list-style: none;
@@ -65,7 +99,7 @@
 .job-sk{
     width: max-content;
     border: 1px solid var(--border-color);
-    border-radius: 8px;
+    border-radius: 4px;
     display: flex;
     align-items: center;
     gap: 4px;
@@ -84,14 +118,23 @@
 
 .job-d ul li{
     padding-bottom: 6px;
+    font-size: 16px;
 }
-.job-d ul span {
+.ab-job {
     display: inline-block;
     color: #6E6D6D;
     padding-bottom: 10px;
     font-size: 14px;
 }
-
+.job-d ul span{
+    display: inline-block;
+    padding-bottom: 10px;
+    /* font-size: 14px; */
+    color: #3D3D3D;
+}
+.job-d ul p{
+    color: #3D3D3D;
+}
 .ab-job {
     list-style: decimal;
     
@@ -108,7 +151,7 @@
     display: flex;
     align-items: center;
     justify-content: start;
-    gap: 2%;
+    gap: 1%;
     padding-bottom: 20px;
 }
 .c-details{
@@ -127,6 +170,10 @@
         color: #6E6D6D;
         padding-bottom: 10px;
         font-size: 14px;
+}
+.c-det-left p,
+.c-det-right p{
+    color: #3D3D3D;
 }
 /* job-actions */
 .job-actions{
@@ -147,7 +194,7 @@
 .dlt-btn, .edt-btn{
     border: 1px solid var(--primary-color);
     height: 40px;
-    width: 120px;
+    width: 136px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -181,6 +228,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    color: #4F4F4F;
 }
 .row-end{
     display: flex;

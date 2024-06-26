@@ -37,8 +37,8 @@ const JobDetails = () => {
             <div className="job-title-wrapper">
                 <div className="job-title">
                     <h1>Senior Product Designer</h1>
-                    <span>posted 2 days ago</span>
-                    <span>Open</span>
+                    <span className='posted-time'>posted 2 days ago</span>
+                    <span className='job-status'> <span className='dot'></span>Open</span>
                 </div>
                 <div className="job-info">
                     <span>
@@ -69,24 +69,24 @@ const JobDetails = () => {
                 </ul>
                 <ul>
                     <li>Preferred Language</li>
-                    <li>English</li>
+                    <li className='text-bold'>English</li>
                 </ul>
                 <ul>
                     <li>Type</li>
-                    <li>Full time</li>
+                    <li className='text-bold'>Full time</li>
                 </ul>
                 <ul>
                     <li>
                         Years of Experience
                     </li>
-                    <li>
+                    <li className='text-bold'>
                         3+ Years of Experience
                     </li>
                 </ul>
             </div>
             <div className="job-d">
                 <ul className='ab-job'>
-                    <span>About the job</span>
+                    <span className='ab-job-title'>About the job</span>
                     <li>Handle the UI/UX research design</li>
                       <li>Work on researching on latest web applications designs & trends</li>
                       <li>Work on conceptualizing and visualizing</li>
